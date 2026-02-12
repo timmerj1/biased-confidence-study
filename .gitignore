@@ -1,4 +1,4 @@
-# R #############################################
+## R #############################################
 # History files
 .Rhistory
 .Rapp.history
@@ -49,7 +49,7 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Python ########################################
+## Python ########################################
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -267,4 +267,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+## VSCode ########################################
+.vscode
+!*.code-workspace
 
+# Built Visual Studio Code Extensions
+*.vsix
+
+trash_script.py
+
+test/
